@@ -1,0 +1,263 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.text-tittle-block {
+  font: 700 46px/50px Asap;
+  color: #697586; }
+
+.btn {
+  width: 160px;
+  height: 50px;
+  font: 500 16px/1 Asap;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
+  .btn:hover {
+    background: transparent;
+    border: 1px solid #4d4d4d;
+    transition: 1s background;
+    box-shadow: none; }
+
+.title {
+  font: 700 46px/50px Asap;
+  color: #4d4d4d;
+  letter-spacing: 5.52px;
+  text-transform: uppercase; }
+  .title:before {
+    content: '';
+    width: 60px;
+    height: 4px;
+    display: block;
+    margin: 0 auto 20px;
+    background-color: #212121; }
+
+.text {
+  font: 400 16px/26px Asap; }
+
+.home {
+  background: url("../img/bg_home.png") no-repeat;
+  background-size: cover;
+  padding-top: 30px; }
+  .home header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .home ul {
+    display: flex; }
+    .home ul li {
+      margin-right: 25px; }
+      .home ul li:last-child {
+        margin-right: 0; }
+  .home a {
+    padding-bottom: 5px;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent; }
+    .home a:hover {
+      color: #4d4d4d;
+      border-bottom: 2px solid #4d4d4d;
+      text-transform: capitalize; }
+  .home .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .home .hero h1 {
+      font: 500 90px/65px Asap;
+      color: #4d4d4d; }
+    .home .hero p {
+      font: 500 22px/67px Asap san-serif;
+      color: #4d4d4d; }
+  .home .btn {
+    margin-right: 20px; }
+
+.about .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 110px 0; }
+
+.about .about_section {
+  margin-right: 120px; }
+
+.about .title:before {
+  margin: 0 0 20px; }
+
+.about p {
+  margin-bottom: 40px; }
+
+.about .second-btn {
+  width: 245px;
+  height: 50px;
+  border: 1px solid #4d4d4d;
+  background: transparent; }
+
+.service {
+  background-color: #f6f6f6;
+  padding: 120px; }
+  .service .title {
+    text-align: center;
+    margin-bottom: 70px; }
+  .service ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .service ul li {
+      width: 210px;
+      margin-right: 175px;
+      margin-bottom: 80px;
+      text-align: center;
+      font: 500 24px/49px Asap;
+      color: #4d4d4d; }
+      .service ul li:last-child, .service ul li:nth-child(3) {
+        margin-right: 0; }
+
+.skill {
+  padding: 110px 0px;
+  text-align: center; }
+  .skill .title {
+    margin-bottom: 50px; }
+
+.portfolio {
+  background: #f6f6f6;
+  padding: 110px;
+  text-align: center; }
+  .portfolio .title {
+    margin-bottom: 50px; }
+  .portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+  .portfolio li {
+    margin-bottom: 30px; }
+
+.testim {
+  padding: 120px 0px; }
+  .testim .title {
+    text-align: center; }
+  .testim .testim_box {
+    display: flex;
+    align-items: center;
+    padding: 80px 80px 100px 100px;
+    margin: 50px auto;
+    max-width: 955px;
+    height: 349px;
+    border: 1px solid #212121; }
+    .testim .testim_box img {
+      margin-right: 30px; }
+    .testim .testim_box h3 {
+      font: 500 30px/49px Asap;
+      color: #212121;
+      text-transform: uppercase; }
+    .testim .testim_box .italic {
+      margin-bottom: 20px;
+      font: 12px/1 Asap italic;
+      color: #212121;
+      text-transform: uppercase; }
+    .testim .testim_box .text {
+      color: #212121; }
+
+.funfact {
+  padding: 50px 0;
+  background: #f6f6f6;
+  margin-bottom: 150px; }
+  .funfact ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+  .funfact .number {
+    color: #363636;
+    font: 500 30px Asap; }
+  .funfact .text_funfact {
+    color: #363636;
+    font: 400 22px/32px Asap; }
+
+.contact {
+  padding-top: 145px;
+  background-image: url("../img/contact_bg.jpg");
+  background-size: cover;
+  text-align: center; }
+  .contact .title {
+    color: #ffffff; }
+    .contact .title:before {
+      background-color: #ffffff; }
+  .contact form {
+    color: #212121;
+    font: 400 16px/67px Asap;
+    margin-bottom: 60px; }
+  .contact input {
+    width: 370px;
+    height: 57px;
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 25px 10px; }
+  .contact textarea {
+    resize: none;
+    width: 768px;
+    height: 207px;
+    margin: 30px;
+    padding: 25px 10px;
+    background-color: #ffffff; }
+  .contact .btn {
+    width: 123px; }
+    .contact .btn:hover {
+      background: #ffffff; }
+  .contact footer {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    border-top: 1px solid #d4d4d4; }
+    .contact footer p {
+      color: #ffffff; }
+    .contact footer ul {
+      display: flex;
+      justify-content: flex-start;
+      margin-right: 280px; }
+    .contact footer .icon {
+      width: 27px;
+      height: 27px;
+      margin-right: 10px;
+      background-color: #d4d4d4;
+      font: 400 16px/27px Font Awesome; }
+      .contact footer .icon:hover {
+        background-color: #0084b4;
+        color: #ffffff; }
